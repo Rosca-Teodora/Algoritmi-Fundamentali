@@ -1,6 +1,7 @@
 // 
 // alg lui prim? 
 //      -> ia mereu minimul dintre toate muchiile valabile 
+//      -> verifica sa nu se creeze niciun ciclu!
 //      -> O(N^2) cu o MATRICE DE ADIACENTA
 //      -> O(NlogN + MlogN) cu o LISTA de adiacenta + un MIN HEAP!
 
@@ -8,9 +9,13 @@
 #include <vector>
 #include <algorithm>
 
+
 using namespace std;
 
 vector<int> lista[100001];
+int vizitat[100001];
+
+
 
 int main()
 {
@@ -26,6 +31,7 @@ int main()
     }
 
     
+
 
     return 0;
 }
