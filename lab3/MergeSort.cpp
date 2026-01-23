@@ -1,6 +1,8 @@
 
 // merge sort facut special cu ideea de a fi folosit in algoritmul Kruskal
 
+//  complexitate: O(NlogN)
+
 #include <iostream>
 
 using namespace std;

@@ -9,6 +9,8 @@
 // NU conecteaza doua noduri care deja au fost incluse in arborele de cost minim
 //      --> cum verific daca sunt doua noduri in acelasi arbore? functie separata de find parent! daca au acelasi parinte inseamna ca sunt in acelasi nod
 
+// complexitate: O(mlogn)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

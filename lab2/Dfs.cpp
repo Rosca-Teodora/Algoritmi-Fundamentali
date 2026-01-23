@@ -19,6 +19,8 @@
 
 // parcurgere dfs: 1 2 4 3 5 sau 1 2 4 5
 
+// complexitate: O(n + m)
+
 #include <iostream>
 #include <vector>
 
