@@ -30,7 +30,7 @@ void alg_prim(int start)
 
         if (vizitat[nod] == 0)
         {
-            vizitat[nod] = 
+            vizitat[nod] = 1;
             costTotal += cost;
 
             for (auto vecin : lista[nod])
