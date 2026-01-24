@@ -1,10 +1,10 @@
 // alg dijkstra
-// pe ce e folosit? --> grafuri ORIENTATE care pot CONTINE CICLURI si au doar ponderi POZITIVE 
+// pe ce e folosit? --> grafuri ORIENTATE (merge si pe neorientate tho) care pot CONTINE CICLURI si au doar ponderi POZITIVE 
 
 // cum functioneaza??
 // generalizare a algoritmului de bfs -> cand toate nodurile au distantele egale este chiar echivalent
 
-// complexitate: O()
+// complexitate: O(MlogN)
 
 #include <iostream>
 #include <fstream>
